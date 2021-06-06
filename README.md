@@ -12,9 +12,7 @@
 
 
 
-<h3 align="left" href="https://github.com/yasha6081/README">About me!!</h3>
-
-
+<h3 align="center"><a  href="https://github.com/yasha6081/README"> About me!!</a></h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
