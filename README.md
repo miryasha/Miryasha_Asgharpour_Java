@@ -1,4 +1,4 @@
-# This Repo is for first challenge of Cognizant Java-React-Bootcamp
+# This Repo is for the first challenge of Cognizant Java-React-Bootcamp
 
 <h3 align="center">Cognizant Java-React-Bootcamp</h3>
 
