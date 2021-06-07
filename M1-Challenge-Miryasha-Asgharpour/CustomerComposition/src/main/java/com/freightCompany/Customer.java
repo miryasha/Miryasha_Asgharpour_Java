@@ -8,12 +8,14 @@ public class Customer {
     private String lastName;
     private String email;
     private int phoneNumber;
+    private boolean rewarded;
 
-    public Customer(String firstName, String lastName, String email, int phoneNumber) {
+    public Customer(String firstName, String lastName, String email, int phoneNumber, boolean rewarded) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+        this.rewarded = rewarded;
     }
 
     public String getFirstName() {
@@ -48,17 +50,25 @@ public class Customer {
         this.phoneNumber = phoneNumber;
     }
 
+    public boolean isRewarded() {
+        return rewarded;
+    }
+
+    public void setRewarded(boolean rewarded) {
+        this.rewarded = rewarded;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Customer customer = (Customer) o;
-        return phoneNumber == customer.phoneNumber && Objects.equals(firstName, customer.firstName) && Objects.equals(lastName, customer.lastName) && Objects.equals(email, customer.email);
+        return phoneNumber == customer.phoneNumber && rewarded == customer.rewarded && Objects.equals(firstName, customer.firstName) && Objects.equals(lastName, customer.lastName) && Objects.equals(email, customer.email);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, email, phoneNumber);
+        return Objects.hash(firstName, lastName, email, phoneNumber, rewarded);
     }
 
     @Override
@@ -68,6 +78,7 @@ public class Customer {
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", phoneNumber=" + phoneNumber +
+                ", rewarded=" + rewarded +
                 '}';
     }
 }

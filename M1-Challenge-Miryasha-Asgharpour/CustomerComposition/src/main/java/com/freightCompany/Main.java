@@ -12,10 +12,17 @@ public class Main {
 
         dataCenter.addData();
 
+        //dataCenter.printAllTheData();
+        System.out.println("============");
+
+        dataCenter.onDocument("firstName1");
+        System.out.println("============");
+
+        dataCenter.onDocument("lastName4");
+        System.out.println("============");
+
         dataCenter.onDocument("firstName1");
 
-        System.out.println("============");
-        dataCenter.onDocument("lastName4");
         System.out.println("============");
     }
 

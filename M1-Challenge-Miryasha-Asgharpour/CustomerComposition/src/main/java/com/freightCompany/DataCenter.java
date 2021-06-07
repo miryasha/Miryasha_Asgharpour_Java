@@ -13,8 +13,9 @@ public class DataCenter extends DataSearch {
 
 
 
-        Customer customer1 = new Customer("firstName1", "lastName1", "email1@aa.com", 1234);
-        Customer customer2 = new Customer("firstName2", "lastName2", "email2@bb.com", 5678);
+        Customer customer1 = new Customer("firstName1", "lastName1", "email1@aa.com", 1234, true);
+        Customer customer2 = new Customer("firstName2", "lastName2", "email2@bb.com", 5678, true);
+        Customer customer3 = new Customer("firstName3", "lastName3", "email3@cc.com", 9112, true);
 
         ShippingAddress shippingAddress1 = new ShippingAddress("ship1", "shipS1", "shipCity1", "shipState1", 98765);
         ShippingAddress shippingAddress2 = new ShippingAddress("ship2", "shipS2", "shipCity2", "shipState2", 54321);
@@ -45,8 +46,10 @@ public class DataCenter extends DataSearch {
 
     @Override
     public void printCustomerData(int searchItem) {
-        System.out.println("Retrieve data: ");
+
+        System.out.println("Retrieve data for: " + customerArrayList.get(searchItem).getFirstName());
         System.out.println(customerArrayList.get(searchItem));
+
 
     }
 
@@ -56,11 +59,13 @@ public class DataCenter extends DataSearch {
             if(customerArrayList.get(i).getFirstName().contains(searchItem))
             {
                 printCustomerData(i);
-                break;
+
+            } else {
+                System.out.println("There is no data to show");
+
             }
-
+                break;
         }
-
 
     }
 }
