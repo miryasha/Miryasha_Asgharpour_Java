@@ -31,7 +31,7 @@ public class ProductionLine {
 
 
     public void adjustProductionSpeed(){
-        if (inputRowMaterialSpeed == outPutProductionSpeed){
+        if (inputRowMaterialSpeed == outPutProductionSpeed && emergencyStopLine == false){
 
             System.out.println("Line is working!!!!");
             productionLineIsOn = true;
