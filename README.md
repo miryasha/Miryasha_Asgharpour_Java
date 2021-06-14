@@ -1,4 +1,4 @@
-# m1 is for the first challenge of Cognizant Java-React-Bootcamp
+## M1 is for the first challenge of Cognizant Java-React-Bootcamp
 
 <h3 align="center">Cognizant Java-React-Bootcamp</h3>
 
@@ -8,7 +8,7 @@
 
 
 
-# M2 is for the second challenge of Cognizant Java-React-Bootcamp
+## M2 is for the second challenge of Cognizant Java-React-Bootcamp
 
 <h3 align="center">Cognizant Java-React-Bootcamp</h3>
 
