@@ -1,13 +1,12 @@
-<h3 align="center">Cognizant Java-React-Bootcamp</h3>
+<h1 align="center">Cognizant Java-React-Bootcamp</h1>
+
+
+<h3 align="left">M1 is for the first challenge</h3>
 
 
 
-<h3 align="center">M1 is for the first challenge</h3>
 
-
-
-
-<h3 align="center">M2 is for the second challenge</h3>
+<h3 align="left">M2 is for the second challenge</h3>
 
 # Usage
 
