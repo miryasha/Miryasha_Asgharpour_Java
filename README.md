@@ -13,7 +13,7 @@
 
 ## Usage
 
-<img src="../doc.JPG" alt="api" >
+<img src="./M2-Challenge-Miryasha-Asgharpour/doc.JPG" alt="api" >
 
 
 <h3 align="left">Languages and Tools:</h3>
