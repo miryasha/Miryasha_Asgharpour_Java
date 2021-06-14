@@ -31,13 +31,13 @@ public class MagicController {
 
     @RequestMapping(value="/magic", method= RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
-    public Answer askMagic(@RequestBody Answer answer) {
+    public Answer askMagic(@RequestBody Answer question ) {
 
 
 
         int random = (int)(Math.random() * ( 10 - 0 + 1 ) + 0 );
 
-          magicList.get(random).setQuestion(answer.getQuestion());
+          magicList.get(random).setQuestion(question.getQuestion());
           return magicList.get(random);
 
     }
