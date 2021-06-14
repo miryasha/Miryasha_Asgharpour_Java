@@ -4,7 +4,7 @@
 <h3 align="left">M1 is for the first challenge</h3>
 
 ## Usage
-<h3>oops concepts</h3>
+<h3>oops concepts of Java</h3>
 
 
 
@@ -13,7 +13,7 @@
 
 ## Usage
 
-<img src="doc.JPG" alt="api" >
+<img src="../doc.JPG" alt="api" >
 
 
 <h3 align="left">Languages and Tools:</h3>
