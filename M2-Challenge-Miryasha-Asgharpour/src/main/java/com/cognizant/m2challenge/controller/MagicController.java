@@ -30,7 +30,7 @@ public class MagicController {
 
 
     @RequestMapping(value="/magic", method= RequestMethod.POST)
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ResponseStatus(HttpStatus.CREATED)
     public Answer askMagic(@RequestBody Answer question ) {
 
 
